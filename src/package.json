@@ -1,0 +1,50 @@
+{
+  "homepage": "https://vanganvyasri.github.io/ecommerce-_website",
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "An e-commerce website for shoes and fashion",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "react-scripts": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanganvyasri/ecommerce-_website.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "fashion",
+    "shopping"
+  ],
+  "bugs": {
+    "url": "https://github.com/vanganvyasri/ecommerce-_website/issues"
+  },
+  "author": "Navya",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
