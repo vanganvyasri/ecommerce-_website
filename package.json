@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vanganvyasri.github.io/ecommerce-website",
+  "homepage": "https://vanganvyasri.github.io/ecommerce-_website",
   "name": "ecommerce-website",
   "version": "1.0.0",
   "description": "An e-commerce website for shoes and fashion",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vanganvyasri/ecommerce-website.git"
+    "url": "git+https://github.com/vanganvyasri/ecommerce-_website.git"
   },
   "keywords": [
     "ecommerce",
@@ -31,7 +31,7 @@
     "shopping"
   ],
   "bugs": {
-    "url": "https://github.com/vanganvyasri/ecommerce-website/issues"
+    "url": "https://github.com/vanganvyasri/ecommerce-_website/issues"
   },
   "author": "Navya",
   "license": "MIT",
