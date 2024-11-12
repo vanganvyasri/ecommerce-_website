@@ -1,13 +1,13 @@
 {
-  "homepage":"http://vanganvyasri.github.io/ecommerce-_website",
+  "homepage": "https://vanganvyasri.github.io/ecommerce-website",
   "name": "ecommerce-website",
   "version": "1.0.0",
   "description": "An e-commerce website for shoes and fashion",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,7 +21,6 @@
     "gh-pages": "^6.2.0",
     "react-scripts": "5.0.0"
   },
-  "homepage": "https://vanganvyasri.github.io/ecommerce-website",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanganvyasri/ecommerce-website.git"
