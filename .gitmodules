@@ -1,3 +1,4 @@
 [submodule "src"]
     path = src
-    url = <https://github.com/vanganvyasri/ecommerce-_website>
+    url = https://github.com/vanganvyasri/ecommerce-_website
+
