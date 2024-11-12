@@ -1,0 +1,38 @@
+digraph {
+	rankdir=TB size="10,10"
+	Start [label=Start]
+	LoadDataset [label="Load Dataset"]
+	Preprocess [label="Denoising and Preprocessing"]
+	ConvertGrayscale [label="Convert to Grayscale"]
+	GaussianBlur [label="Apply Gaussian Blur"]
+	SavePreprocessed [label="Save Preprocessed Images"]
+	HistogramEqualization [label="Histogram Equalization"]
+	SaveEqualized [label="Save Equalized Images"]
+	Thresholding [label="Image Thresholding"]
+	SaveThresholded [label="Save Thresholded Images"]
+	WatershedSegmentation [label="Watershed Segmentation"]
+	DistanceTransform [label="Distance Transform"]
+	MarkerLabeling [label="Marker Labeling"]
+	SaveSegmented [label="Save Segmented Images"]
+	ColorCoding [label="Color Coding Based on Region Size"]
+	SaveColorCoded [label="Save Color-Coded Images"]
+	ZipFiles [label="Zip All Processed Images for Download"]
+	End [label=End]
+	Start -> LoadDataset
+	LoadDataset -> Preprocess
+	Preprocess -> ConvertGrayscale
+	ConvertGrayscale -> GaussianBlur
+	GaussianBlur -> SavePreprocessed
+	SavePreprocessed -> HistogramEqualization
+	HistogramEqualization -> SaveEqualized
+	SaveEqualized -> Thresholding
+	Thresholding -> SaveThresholded
+	SaveThresholded -> WatershedSegmentation
+	WatershedSegmentation -> DistanceTransform
+	DistanceTransform -> MarkerLabeling
+	MarkerLabeling -> SaveSegmented
+	SaveSegmented -> ColorCoding
+	ColorCoding -> SaveColorCoded
+	SaveColorCoded -> ZipFiles
+	ZipFiles -> End
+}
