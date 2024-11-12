@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vanganvyasri.github.io/kimo",
+  "homepage": "https://navyasrivanga.github.io/kimo",
   "name": "ecommerce-website",
   "version": "1.0.0",
   "description": "An e-commerce website for shoes and fashion",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vanganvyasri/kimo.git"
+    "url": "git+https://github.com/navyasrivanga/kimo.git"
   },
   "keywords": [
     "ecommerce",
@@ -32,7 +32,7 @@
     "shopping"
   ],
   "bugs": {
-    "url": "https://github.com/vanganvyasri/kimo/issues"
+    "url": "https://github.com/navyasrivanga/kimo/issues"
   },
   "author": "Navya",
   "license": "MIT",
